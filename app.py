@@ -2,7 +2,7 @@ from flask import Flask, render_template, request
 from instagrapi import Client
 import json
 
-TARGET_ACCOUNT = "public_account_username"
+TARGET_ACCOUNT = "andre.mp2709"
 
 app = Flask(__name__)
 
@@ -45,3 +45,4 @@ def home():
 
 if __name__ == "__main__":
     app.run()
+
